@@ -1,5 +1,6 @@
 import express, { response } from "express";
 import "dotenv/config.js"
+import "./Config/datbase.js"
 
 const server= express ()
 const PORT= process.env.PORT
